@@ -185,6 +185,12 @@ public class MainFrame extends JFrame{
                         JOptionPane.ERROR_MESSAGE);
                 return;
             }
+            if (ValidateIP.isValidInet4Address(destinationAddress)) {
+                JOptionPane.showMessageDialog(this,
+                        "IP-адрес введен некорректно", "Ошибка", JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+
 
 
 
