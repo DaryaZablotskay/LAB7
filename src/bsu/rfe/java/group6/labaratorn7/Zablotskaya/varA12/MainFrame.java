@@ -186,7 +186,7 @@ public class MainFrame extends JFrame{
                 return;
             }
 
-            
+
 
 // Создаем сокет для соединения
             final Socket socket =
